@@ -1,0 +1,17 @@
+i1 = input("Please enter the first value: ")
+i2 = input("Please enter the second value: ")
+i3 = input("Please enter the third value: ")
+i4 = input("Please enter the fourth value: ")
+i5 = input("Please enter the fifth value: ")
+
+print(f"First value is: {i1}")
+print(f"Second value: {i2}")
+print(f"Third value: {i3}")
+print(f"Fourth value: {i4}")
+print(f"Fifth value: {i5}")
+
+print(f"Type of the first value is: {type(i1)}")
+print(f"Type of the second value is: {type(i2)}")
+print(f"Type of the third value is: {type(i3)}")
+print(f"Type of the fourth value is: {type(i4)}")
+print(f"Type of the fifth value is: {type(i5)}")
