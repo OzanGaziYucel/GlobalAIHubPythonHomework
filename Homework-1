@@ -1,17 +1,32 @@
+valueArray=[]
 i1 = input("Please enter the first value: ")
+if i1.isdigit():
+    valueArray.append(int(i1))
+else:
+    valueArray.append(i1)
 i2 = input("Please enter the second value: ")
+if i2.isdigit():
+    valueArray.append(int(i2))
+else:
+    valueArray.append(i2)
 i3 = input("Please enter the third value: ")
+if i3.isdigit():
+    valueArray.append(int(i3))
+else:
+    valueArray.append(i3)
 i4 = input("Please enter the fourth value: ")
+if i4.isdigit():
+    valueArray.append(int(i4))
+else:
+    valueArray.append(i4)
 i5 = input("Please enter the fifth value: ")
+if i5.isdigit():
+    valueArray.append(int(i5))
+else:
+    valueArray.append(i5)
 
-print(f"First value is: {i1}")
-print(f"Second value: {i2}")
-print(f"Third value: {i3}")
-print(f"Fourth value: {i4}")
-print(f"Fifth value: {i5}")
-
-print(f"Type of the first value is: {type(i1)}")
-print(f"Type of the second value is: {type(i2)}")
-print(f"Type of the third value is: {type(i3)}")
-print(f"Type of the fourth value is: {type(i4)}")
-print(f"Type of the fifth value is: {type(i5)}")
+print(f"Type of the {i1} is: {type(valueArray[0])}")
+print(f"Type of the {i2} is: {type(valueArray[1])}")
+print(f"Type of the {i3} is: {type(valueArray[2])}")
+print(f"Type of the {i4} is: {type(valueArray[3])}")
+print(f"Type of the {i5} is: {type(valueArray[4])}")
